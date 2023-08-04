@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.page-header {
+    display: table;
+    width: 100%;
+}
+
+.inner-left-header {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.inner-left-header > a {
+    font-size: 18px;
+    display: inline-block;
+    padding: 1.75rem 1rem;
+    text-decoration: none;
+}
+
+.inner-right-header {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.inner-right-header > a {
+    font-size: 18px;
+    display: inline-block;
+    padding: .5rem 1.5rem;
+    text-decoration: none;
+}
+
+.header-w3school-logo-size {
+    height: 42px;
+    vertical-align: middle;
+    padding-right: 1rem;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-black {
+    background-color: rgba(23, 21, 21, 0.929);
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-green {
+    background-color: rgb(19, 144, 98);
+}
+
+.border-capsule {
+    border-radius: 1.5rem;
+}
+
+.text-white.hover-green:hover {
+    background-color: #04AA6D;
+}
+
+.text-black.hover-green:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.span-new-text {
+    font-size: 0.8rem;
+    background-color: white;
+    color: black;
+    padding: 0.1rem 0.35rem;
+    border-radius: .75rem;
+    font-weight: bold;
+}
+
+.page-nav-bar {
+    font-size: 0px;
+    background-color: rgba(23, 21, 21, 0.929);
+}
+
+.page-nav-bar>a {
+    font-size: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.page-nav-bar>a:hover {
+    background-color: black;
+}
